@@ -1,0 +1,43 @@
+
+𝙅𝙖𝙫𝙖 𝘾𝙤𝙣𝙫𝙚𝙧𝙩 𝙞𝙣𝙩 𝙩𝙤 𝙎𝙩𝙧𝙞𝙣𝙜
+
+String s=String.valueOf(n);
+String s=Integer.toString(i);
+String s=String.format("%d",i);  
+
+
+𝐣𝐚𝐯𝐚.𝐮𝐭𝐢𝐥
+
+𝐂𝐥𝐚𝐬𝐬 𝐂𝐚𝐥𝐞𝐧𝐝𝐚𝐫
+
+𝐣𝐚𝐯𝐚.𝐥𝐚𝐧𝐠.𝐎𝐛𝐣𝐞𝐜𝐭
+𝐣𝐚𝐯𝐚.𝐮𝐭𝐢𝐥.𝐂𝐚𝐥𝐞𝐧𝐝𝐚𝐫
+𝐀𝐥𝐥 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐞𝐝 𝐈𝐧𝐭𝐞𝐫𝐟𝐚𝐜𝐞𝐬:
+𝐒𝐞𝐫𝐢𝐚𝐥𝐢𝐳𝐚𝐛𝐥𝐞, 𝐂𝐥𝐨𝐧𝐞𝐚𝐛𝐥𝐞, 𝐂𝐨𝐦𝐩𝐚𝐫𝐚𝐛𝐥𝐞<𝐂𝐚𝐥𝐞𝐧𝐝𝐚𝐫>
+𝐃𝐢𝐫𝐞𝐜𝐭 𝐊𝐧𝐨𝐰𝐧 𝐒𝐮𝐛𝐜𝐥𝐚𝐬𝐬𝐞𝐬:
+𝐆𝐫𝐞𝐠𝐨𝐫𝐢𝐚𝐧𝐂𝐚𝐥𝐞𝐧𝐝𝐚𝐫
+
+
+{ Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.MONTH, month-1);
+       cal.set(Calendar.DAY_OF_MONTH, day);
+        cal.set(Calendar.YEAR, year);
+     String[] day_of_week = {"SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY","SATURDAY"};
+       return day_of_week[cal.get(Calendar.DAY_OF_WEEK)-1];
+}
+
+     Date date = new Date();
+date.setDate(day);
+date.setMonth(month-1);
+date.setYear(-1900+ year);
+SimpleDateFormat formatter =new SimpleDateFormat("EEEE ");
+String strDate = formatter.format(date).𝖙𝖔𝖀𝖕𝖕𝖊𝖗𝕮𝖆𝖘𝖊();               ///////////////////////////////////////////////////////
+}}
+
+
+Locale INDIA = new Locale("en","IN");
+      NumberFormat us    = NumberFormat.getCurrencyInstance(Locale.US);
+        NumberFormat india  = NumberFormat.getCurrencyInstance(INDIA);
+        NumberFormat china  = NumberFormat.getCurrencyInstance(Locale.CHINA);
+NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+
